@@ -1,4 +1,5 @@
 # potential_norms
+The title of this work is: The "Origins" of Potential Sociopedagogical Norms in Mathematics Teachers' Online Asynchronous Discussions
 This research was presented at the National Council of Teachers of Mathematics Research Conference in 2022. The research was conducted by Anthony Matranga at California State University San Marcos and Jason Silverman at Drexel University. The presentation slides can be accessed at the following link:
 https://csusm-my.sharepoint.com/:p:/g/personal/amatranga_csusm_edu/Ee8unAI6DkxNvXvVPjcfn4QBfDCTZ7Wd4MvP35JBbUQb8A?e=O2pGYs
 
@@ -10,8 +11,8 @@ edge data:
 node data:
 7 columns: "Participant/topic id", "Node description"" (participant pseudonymn/discourse feature), "topic_number","Node Type"(core/periphery/potential norm), "topic_time" (discussion forum),"position_lab" (coded for igraph), "mode"
 
-Using this code:
-Please note that you will likely have to update aspects of this code according to your data set.
+Code description:
+This code can be used to construct a 2-mode network that allows for examination of associations between participant engagement in online discussions and their use of discourse with specific features. There is also code that projects the 2-mode network into a 1-mode network that allows for examination of the extent to which participants use discourse with the same features. I also use ggraph to generate plots of the 2-mode and 1-mode networks. 
 
 
 
